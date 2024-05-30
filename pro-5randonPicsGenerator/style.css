@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+ 
+    background-color: brown;
+    text-align: center;
+ 
+  
+}
+.pics-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pics-container img{
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    background-color: aliceblue;
+}
+button{
+    background-color: slateblue;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+    padding: 10px 20px;
+    margin: 20px;
+    border: none;
+    color: white;
+    font-size: 20px ;
+    cursor: pointer;
+
+}
+button:hover{
+    opacity: 0.8;
+}
